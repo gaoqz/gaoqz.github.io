@@ -1095,7 +1095,7 @@ footer .social-links a i:hover {
 
 footer .quote p {
     margin: 0 20px;
-    font-size: 24px;
+    font-size: 20px;
 }
 
 footer .quote p:before {
@@ -1169,7 +1169,7 @@ footer .copyright a:hover {
 }
 
 .archives-container {
-    min-height: 600px;
+    min-height: 400px;
     padding: 30px 40px;
     background: #fff;
     box-shadow: 0 0 3px rgba(0, 0, 0, 0.15);
