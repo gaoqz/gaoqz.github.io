@@ -1164,7 +1164,7 @@ footer .copyright a:hover {
 }
 
 .pagination {
-    height: 200px;
+    height: 120px;
     width: 100%;
 }
 
@@ -1389,4 +1389,8 @@ footer .copyright a:hover {
   
   .slideInLeft {
     animation-name: slideInLeft;
+  }
+
+  .text-center {
+      text-align: center;
   }

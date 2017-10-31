@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="theme-color" content="#34495e">
+    <title>GaoQz&#39;s blog</title>
+    <link rel="alternate" href="path/of/rss" type="application/atom+xml">
+    <link rel="icon" href="path/of/favicon">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+    <div class="mobile-header">
+        <span><i class="iconfont icon-turnon" id="mobile-nav-toggle"></i></span>
+        <div class="mobile-logo">
+            <a href="/.">GaoQz&#39;s blog</a>
+        </div>
+    </div>
+    <div id="mobile-nav">
+        <nav id="mobile-nav-menu">
+            <a href="/" class="mobile-nav-link"><i class="iconfont icon-home"></i>&nbsp;&nbsp;Home</a>
+            <a href="/archives" class="mobile-nav-link"><i class="iconfont icon-archive"></i>&nbsp;&nbsp;Articles</a>
+            <a href="/about" class="mobile-nav-link"><i class="iconfont icon-about"></i>&nbsp;&nbsp;About</a>
+            <div class="mobile-intro"><i class="iconfont icon-pen"></i>Experience is the mother of wisdom.</div>
+        </nav>
+    </div>
+
+    <div class="page" id="mobile-nav-panel">
+        <header class="site-nav">
+            <div class="nav-content">
+                <div class="logo">
+                    <a href="/">GaoQz&#39;s blog</a>
+                </div>
+                <nav class="navbar">
+                    <ul>
+                        <li class="menu-item">
+                            <a href="/" class="menu-item-link"><i class="iconfont icon-home"></i>&nbsp;&nbsp;Home</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="/archives" class="menu-item-link"><i class="iconfont icon-archive"></i>&nbsp;&nbsp;Articles</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="/about" class="menu-item-link"><i class="iconfont icon-about"></i>&nbsp;&nbsp;About</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <div class="banner">
+            <div class="show">
+                <div class="banner-title">
+                    <div class="post-title">
+                        GitHub Pages + Hexo 搭建个人博客
+                        <!-- <div class="post-tags">
+                            <a class="tag-link" href="/tags/GitHub-Page/">GitHub Page</a>
+                            <a class="tag-link" href="/tags/Hexo/">Hexo</a>
+                            <a class="tag-link" href="/tags/blog/">blog</a>
+                            <a class="tag-link" href="/tags/静态独立博客/">静态独立博客</a>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <main class="main" id="main">
+            <article class="post">
+                <header>
+                    <div class="post-title mobile-post-title">
+                        <h1>GitHub Pages + Hexo 搭建个人博客</h1>
+                        <!-- <div class="post-tags">
+                            <a class="tag-link" href="/tags/GitHub-Page/">GitHub Page</a>
+                            <a class="tag-link" href="/tags/Hexo/">Hexo</a>
+                            <a class="tag-link" href="/tags/blog/">blog</a>
+                            <a class="tag-link" href="/tags/静态独立博客/">静态独立博客</a>
+                        </div> -->
+                    </div>
+                    <div class="post-meta">
+                        <span class="post-time"><i class="iconfont icon-calendar"></i>&nbsp;&nbsp;2016-11-11</span>
+                        <i class="iconfont icon-divide"></i>
+                        <div class="post-visits">
+                            @GaoQz
+                        </div>
+                    </div>
+                </header>
+
+                <div class="post-toc" id="post-toc">
+                    <h2 class="post-toc-title">目录</h2>
+                    <div class="post-toc-content">
+                        <ol class="toc">
+                            <li class="toc-item toc-level-3"><a class="toc-link" href="#前言"><span class="toc-text">前言</span></a></li>
+                            <li class="toc-item toc-level-3"><a class="toc-link" href="#正文"><span class="toc-text">正文</span></a></li>
+                            <ol class="toc-child">
+                                <li class="toc-item toc-level-4"><a class="toc-link" href="#为什么使用 github&github-pages"><span class="toc-text">为什么使用 github&github-pages</span></a></li>
+                                <li class="toc-item toc-level-4"><a class="toc-link" href="#github-pages 搭建自己的独立博客"><span class="toc-text">github pages 搭建自己的独立博客</span></a></li>
+                                <li class="toc-item toc-level-4"><a class="toc-link" href="#如何使用 hexo"><span class="toc-text">如何使用 hexo</span></a></li>
+                            </ol>
+                            </li>
+                            <li class="toc-item toc-level-3"><a class="toc-link" href="#最后"><span class="toc-text">最后</span></a></li>
+                        </ol>
+                    </div>
+                </div>
+
+                <div class="post-content">
+                    <h3 id="前言" class="text-center">
+                        <a href="#前言" class="headerlink" title="前言"></a> 前言
+                    </h3>
+                    <p>环境准备：
+                        <a href="https://nodejs.org/en/" target="_blank">nodeJs</a>
+                        <a href="www.github.com" target="_blank">github</a>
+                        <a href="https://hexo.io/" target="_blank">hexo</a>（<code>npm install -g hexo</code>）
+                    </p>
+
+                    <h3 id="正文" class="text-center">
+                        <a href="#正文" class="headerlink" title="正文"></a>正文
+                    </h3>
+
+                    <h3 id="为什么使用github－pages"><a href="#为什么使用 github&github-pages" class="headerlink" title="为什么使用 github&github-pages">
+                        </a>为什么使用 github&github-pages
+                    </h3>
+                    <ul>
+                        <li>gitub 可以托管代码，简单方便，并且 github 上有大量优秀开源项目，以后会更多。</li>
+                        <li>github Pages 可以为你提供一个免费的服务器，免去了自己搭建服务器和写数据库的麻烦</li>
+                        <li>github Pages 可以可以绑定你的域名</li>
+                    </ul>
+
+                    <h4 id="github-pages 搭建自己的独立博客">
+                        <a href="#github-pages 搭建自己的独立博客" class="headerlink" title="github-pages 搭建自己的独立博客"></a> github-pages 搭建自己的独立博客
+                    </h4>
+                    <ol>
+                        <li>安装相关环境（已有请跳过）</li>
+                        <li>在 github 创建个人仓库，命名为username.github.io（username是你的账号名）,配置 git 相关</li>
+                        <li>创建项目文件夹，cd 到该文件目录，执行命令行 <code>hexo init</code>（只需要创建空文件夹即可）</li>
+                        <li>修改配置：_config.yml</li>
+                        <li>主题安装：<code>hexo -g</code> & <code>hexo -s</code></li>
+                        <li>开发调试：<code>hexo -g</code> & <code>hexo -s</code></li>
+                        <li>部署到GitHub上：<code>hexo deploy</code></li>
+                    </ol>
+
+                    <h4 id="如何使用 hexo">
+                        <a href="#如何使用 hexo" class="headerlink" title="如何使用 hexo"></a> 如何使用 hexo
+                    </h4>
+                    <p>
+                        新建一篇博文可通过以下的命令：hexo new "name"
+                        <br /> 其中name为博文的名字，建立完成之后，可以在./source/_posts文件夹下发现我们刚刚建立的 name.md文件。使用你熟悉的编辑器打开，便可以进行博文的撰写。博文支持MarkDown语法的编写. 博文写好之后，在每次发布之前，我们要先将写好的博客生成静态文件，执行以下命令：hexo g
+                        <br /> 之后生成的文件会放在./public目录下，静态文件生成之后，便可以部署到GitHub上：hexo d
+                    </p>
+
+                    <h3 id="最后">
+                        <a href="#最后" class="headerlink" title="最后"></a>最后
+                    </h3>
+                    <p>只是简单的介绍了步骤，具体请上手操作～</p>
+
+                </div>
+                <div class="post-footer"></div>
+            </article>
+
+
+            <nav class="pagination post-nav">
+                <a href="/2016/12/11/change/">
+                    <span class="prev-post">
+                        <i class="iconfont icon-back"></i>
+                        上一篇：暂无
+                    </span>
+                </a>
+            </nav>
+        </main>
+
+        <footer>
+            <div class="social-links">
+                <a target="_blank" href="https://www.zhihu.com/people/gao-qing-zu-46/activities"><i class="iconfont icon-zhihu"></i></a>
+                <a href="#"><i class="iconfont icon-weibo"></i></a>
+                <a target="_blank" href="https://github.com/gaoqz"><i class="iconfont icon-github"></i></a>
+            </div>
+
+            <div class="quote">
+                <p>
+                    Get comfortable being uncomfortable. This is how you break the plateau and reach the next level. – Chalene Johnson, Fitness Trainer
+                </p>
+            </div>
+
+            <div class="copyright">
+                <p>
+                    Created by <a href="https://hexo.io/">@Hexo</a>
+                    <span>|</span> theme - <a href="https://github.com/wa-ri/hexo-theme-ztopic">@ztopic</a>
+                </p>
+                <p>
+                    <span>&copy;2016 - 2017</span>
+                    <i class="iconfont icon-circle"></i>
+                    <span>GaoQz</span>
+                </p>
+            </div>
+        </footer>
+
+        <div class="back-to-top" id="back-to-top">
+            <i class="iconfont icon-up"></i>
+        </div>
+    </div>
+
+    <script src="/libs/jQuery/jquery-3.2.1.min.js"></script>
+    <script src="/libs/slideout/slideout.min.js"></script>
+
+    <link rel="stylesheet" href="/libs/fancybox/jquery.fancybox.css">
+    <script src="/libs/fancybox/jquery.fancybox.pack.js"></script>
+
+    <script src="/js/ztopic.js"></script>
+</body>
+
+</html>
